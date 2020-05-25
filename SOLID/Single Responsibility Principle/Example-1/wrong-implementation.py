@@ -14,8 +14,8 @@ class Journal:
         return "\n".join(self.entries)
 
     # Main responsibility of the journal class 
-    # is to write and remove enteries.
-    # By adding extra functionality like saving and loading journal
+    # is to write and remove entries.
+    # By adding extra functionality like saving and loading the journal
     # we're breaking the SRP.
     def save(self, filename):
         file = open(filename, "w")
