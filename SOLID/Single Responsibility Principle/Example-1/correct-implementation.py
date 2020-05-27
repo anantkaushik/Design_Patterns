@@ -15,7 +15,7 @@ class Journal:
 
 
 # By separating the functionality of saving and loading 
-# teh journal we're maintaining the SRP.
+# the journal we're maintaining the SRP.
 class PersistenceManager:
     def save_to_file(self, journal, filename):
         file = open(filename, "w")
